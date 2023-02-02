@@ -9,7 +9,7 @@ interface IGame {
 // https://www.youtube.com/watch?v=qzxn85zX2aE
 // @author https://twitter.com/eugenioclrc
 contract Pelusa {
-    address public immutable owner;
+    address private immutable owner;
     address internal player;
     uint256 public goals = 1;
 
