@@ -7,7 +7,7 @@ import {Pelusa} from "src/Pelusa.sol";
 import {PelusaAttack} from "src/PelusaAttack.sol";
 import {PelusaAttackDeployer} from "src/PelusaAttackDeployer.sol";
 
-contract Weth10Test is Test {
+contract PelusaTest is Test {
     Pelusa public pelusa;
     PelusaAttack public pelusaAttack;
     PelusaAttackDeployer public pelusaAttackDeployer;
